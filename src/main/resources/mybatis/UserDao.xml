@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wmk.api.dao.UserDao111">
+    <select id="selectUser" resultType="com.wmk.api.pojo.User">
+        select * from user
+    </select>
+    <select id="selectUserById" resultType="com.wmk.api.pojo.User">
+        select * from user where user_id=#{user_id}
+    </select>
+    <select id="selectUserDetail" parameterType="java.lang.String" resultType="java.lang.Integer">
+        select user_id from user where user_name = #{user_name} and user_type = 1
+    </select>
+</mapper>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <rootUrl>http://192.168.50.110:8888</rootUrl>
+    <headers>
+        <!-- 配置为自己的参数 -->
+        <!--<header name="apikey" value="123456"></header>-->
+        <header name="content-type" value="application/json"></header>
+    </headers>
+    <params>
+    	<!--<param name="test" value="value"></param>-->
+        <!--<param name="first_currency" value="111"></param>-->
+        <!--<param name="first_name" value="aaa"></param>-->
+    </params>
+    <project_name>接口自动化测试报告demo</project_name>
+</root>
